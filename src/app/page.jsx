@@ -1,9 +1,8 @@
 import Image from "next/image";
-import bg from "../../public/background/home-background.png";
+import bg from "../../public/background/bg-home.jpg";
 import RenderModel from "@/components/RenderModel";
-import RobotModel from "@/components/models/Robot";
-import StarsCanvas from "@/components/StarBackground";
 import Navigation from "@/components/navigation";
+import { HomeModel } from "@/components/models/HomeModel";
 
 export default function Home() {
   return (
@@ -18,9 +17,10 @@ export default function Home() {
         {/** navigation and 3d model */}
         <Navigation />
         <RenderModel>
-          <RobotModel />
-        </RenderModel>{" "}
-      </div>{" "}
+          {/* <RobotModel /> */}
+          <HomeModel/>
+        </RenderModel>
+      </div>
     </main>
   );
 }
