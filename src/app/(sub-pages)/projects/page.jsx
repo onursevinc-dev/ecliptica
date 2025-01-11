@@ -5,7 +5,7 @@ import { projectsData } from "../../data";
 import RenderModel from "@/components/RenderModel";
 import { ProjectsModel } from "@/components/models/ProjectsModel";
 
-export default function Home() {
+export default function Projects() {
   return (
     <>
       <Image
@@ -15,7 +15,7 @@ export default function Home() {
       />
       <ProjectList projects={projectsData} />
 
-      <div className="fixed top-20 left-0 h-full p-32">
+      <div className="flex items-center justify-center fixed top-16 lg:top-20 w-fit -z-10 h-screen">
         <RenderModel>
           <ProjectsModel />
         </RenderModel>
