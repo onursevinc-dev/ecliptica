@@ -2,31 +2,33 @@
 import React, { useRef, useEffect } from "react";
 import { useGLTF, useAnimations } from "@react-three/drei";
 
-export function ProjectsModel(props) {
-    
+export default function ProjectsModel(props) {
   const group = useRef();
   const { nodes, materials, animations } = useGLTF("/models/sphere-bot.glb");
   const { actions, names } = useAnimations(animations, group);
   useEffect(() => {
-  
     // İlk animasyonu başlat
-    const animationIndex = names[3]
+    const animationIndex = names[3];
     if (actions[animationIndex]) {
       const firstAction = actions[animationIndex];
       firstAction.reset().fadeIn(0.5).play().clampWhenFinished = true;
-  
     }
-  
+
     return () => {
       names.forEach((name) => {
         if (actions[name]) actions[name].stop();
       });
     };
   }, [actions, names]);
-  
-  
+
   return (
-    <group ref={group} {...props} dispose={null} rotation={[0.3,-0.8,0]} scale={0.8}>
+    <group
+      ref={group}
+      {...props}
+      dispose={null}
+      rotation={[0.3, -0.8, 0]}
+      scale={0.8}
+    >
       <group name="Sketchfab_Scene">
         <group name="Object_4" scale={0.667}>
           <group

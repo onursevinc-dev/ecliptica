@@ -1,14 +1,20 @@
 import Image from "next/image";
 import bg from "../../../../public/background/bg-about.jpg";
 import RenderModel from "@/components/RenderModel";
-import { AboutModel } from "@/components/models/AboutModel";
 import AboutDetails from "@/components/about";
+import dynamic from "next/dynamic";
+
+const AboutModel = dynamic(() => import("@/components/models/AboutModel"), {
+  ssr: false,
+});
 
 export default function About() {
   return (
     <>
       <Image
         src={bg}
+        priority
+        sizes="100vw"
         alt="background-image"
         className="-z-50 fixed top-0 left-0 w-full h-full object-cover object-center opacity-30"
       />
