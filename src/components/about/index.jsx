@@ -12,21 +12,10 @@ const AboutDetails = () => {
           }
         >
           <h2 className="text-xl md:text-2xl text-left w-full capitalize">
-            Architect of Enchantment
+            Architect of Software
           </h2>
           <p className="font-light text-xs sm:text-sm md:text-base">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab harum
-            voluptatibus, facilis cumque dolorem tempora assumenda ipsa atque!
-            Obcaecati, aliquid repudiandae! Ab deleniti at autem provident a
-            impedit cum aut commodi recusandae neque est accusamus perferendis
-            ut molestiae rem necessitatibus, quis, voluptatibus accusantium!
-            Minima, eligendi odio, atque ut vel adipisci porro sint repellendus
-            aliquid doloremque rerum odit magnam. Quos accusantium consectetur
-            ratione, officia iure exercitationem architecto ut aliquam, expedita
-            cum inventore odit commodi iusto nostrum ex. Vitae ea voluptatum
-            deserunt nam quisquam consequatur voluptatibus natus blanditiis vero
-            nisi esse, exercitationem excepturi nesciunt ut assumenda velit,
-            eligendi molestiae sint delectus quo.
+          hello, my name is Onur Sevinç. ı am a software developer. ı have more than 4 years of software development experience. this way more than 25  projects. ı working Beybo Company and ı developed this projects some in Beybo company. I like something develop. 
           </p>
         </ItemLayout>
 
@@ -34,7 +23,7 @@ const AboutDetails = () => {
           className={"col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            25+ <sub className="font-semibold text-base">clients</sub>
+            25+ <sub className="font-semibold text-base">projects</sub>
           </p>
         </ItemLayout>
 
@@ -69,7 +58,7 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-full !p-0"}>
           <img
             className="w-full h-auto"
-            src="https://skillicons.dev/icons?i=js,html,css,was"
+            src="https://skillicons.dev/icons?i=anaconda,androidstudio,arch,arduino,aws,bash,bootstrap,bun,cpp,cassandra,cloudflare,cmake,codepen,css,debian,discord,django,docker,dynamodb,eclipse,elasticsearch,electron,express,fastapi,figma,firebase,flask,flutter,git,github,gmail,go,gradle,godot,grafana,graphql,heroku,hibernate,html,htmx,idea,ai,instagram,java,js,jquery,kafka,kali,kotlin,kubernetes,laravel,linkedin,linux,materialui,maven,mint,mongodb,mysql,nestjs,nextjs,nginx,nodejs,npm,nuxtjs,opencv,php,phpstorm,pinia,planetscale,pnpm,postgres,postman,powershell,prisma,pug,pycharm,py,pytorch,qt,r,rabbitmq,rails,raspberrypi,react,redis,redux,regex,ruby,rust,sass,spring,sqlite,stackoverflow,sublime,supabase,sklearn,selenium,sequelize,svg,tailwind,tensorflow,threejs,twitter,ts,ubuntu,unity,unreal,vercel,vim,visualstudio,vite,vscode,vue,vuetify,webpack,webstorm,windows,wordpress,xd,yarn"
             alt="OnurSevinc-SkillIcons"
             loading="lazy"
           />
