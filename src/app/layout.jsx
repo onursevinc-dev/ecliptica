@@ -4,6 +4,7 @@ import clsx from "clsx";
 import FireFliesBackground from "@/components/FireFliesBackground";
 import StarBackground from "@/components/StarBackground";
 import Sound from "@/components/Sound";
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
           "bg-background text-foreground font-inter"
         )}
       >
+        <Analytics/>
         {children}
         <StarBackground />
         <FireFliesBackground />
