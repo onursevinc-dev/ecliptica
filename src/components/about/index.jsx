@@ -15,30 +15,25 @@ const AboutDetails = () => {
             Architect of Software
           </h2>
           <p className="font-light text-xs sm:text-sm md:text-base">
-            <p>Hello,</p>
-            <p>
-              I am Onur Sevinç, an experienced software developer with over 4
-              years in the field. I have contributed to various projects in the
-              software and electrical electronic domains, achieving success in
-              the technology sector. Computer usage and software development are
-              not just my hobbies; they are my passions. I thrive on identifying
-              and solving problems across all aspects of life.
-            </p>
-            <p>
-              My aptitude for teamwork and analytical thinking enables me to
-              deliver effective solutions to complex projects and challenging
-              problems. I am constantly eager to learn and improve myself. In
-              this era of rapid technological advancement, staying updated with
-              innovations and integrating them into my projects is a key driver
-              of my motivation.
-            </p>
-            <p>
-              I am enthusiastic about the opportunity to enhance my skills and
-              contribute to your company's goals. I look forward to the
-              possibility of working together.
-            </p>
-            <p>Best regards,</p>
-            <p>Onur Sevinç.</p>
+            My name is Onur Sevinç, a passionate and results-driven software
+            developer with over 4 years of hands-on experience in the dynamic
+            world of software development. Over the course of my career, I have
+            played a pivotal role in the successful delivery of more than 25
+            diverse projects, many of which were developed during my tenure at
+            Beybo Company, where I am currently employed. My expertise spans a
+            wide range of software development processes and methodologies,
+            allowing me to navigate complex challenges with confidence and
+            efficiency. I thrive in dynamic environments, embracing new
+            technologies and rapidly mastering unfamiliar concepts to deliver
+            cutting-edge solutions. Whether it’s designing scalable
+            architectures, optimizing performance, or ensuring seamless user
+            experiences, I bring creativity and precision to every project.
+            Driven by a relentless curiosity and a commitment to excellence, I
+            continuously strive to enhance my skills and broaden my knowledge.
+            My ultimate goal is to craft innovative, high-impact solutions that
+            not only meet but exceed expectations. For me, software development
+            is more than a profession—it's a lifelong passion that fuels my
+            drive to create, innovate, and lead.
           </p>
         </ItemLayout>
 
