@@ -32,7 +32,7 @@ const AboutDetails = () => {
             continuously strive to enhance my skills and broaden my knowledge.
             My ultimate goal is to craft innovative, high-impact solutions that
             not only meet but exceed expectations. For me, software development
-            is more than a profession—it's a lifelong passion that fuels my
+            is more than a profession—it&apos; s a lifelong passion that fuels my
             drive to create, innovate, and lead.
           </p>
         </ItemLayout>
