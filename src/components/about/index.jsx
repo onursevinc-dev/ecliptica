@@ -15,7 +15,30 @@ const AboutDetails = () => {
             Architect of Software
           </h2>
           <p className="font-light text-xs sm:text-sm md:text-base">
-          hello, my name is Onur Sevinç. ı am a software developer. ı have more than 4 years of software development experience. this way more than 25  projects. ı working Beybo Company and ı developed this projects some in Beybo company. I like something develop. 
+            <p>Hello,</p>
+            <p>
+              I am Onur Sevinç, an experienced software developer with over 4
+              years in the field. I have contributed to various projects in the
+              software and electrical electronic domains, achieving success in
+              the technology sector. Computer usage and software development are
+              not just my hobbies; they are my passions. I thrive on identifying
+              and solving problems across all aspects of life.
+            </p>
+            <p>
+              My aptitude for teamwork and analytical thinking enables me to
+              deliver effective solutions to complex projects and challenging
+              problems. I am constantly eager to learn and improve myself. In
+              this era of rapid technological advancement, staying updated with
+              innovations and integrating them into my projects is a key driver
+              of my motivation.
+            </p>
+            <p>
+              I am enthusiastic about the opportunity to enhance my skills and
+              contribute to your company's goals. I look forward to the
+              possibility of working together.
+            </p>
+            <p>Best regards,</p>
+            <p>Onur Sevinç.</p>
           </p>
         </ItemLayout>
 

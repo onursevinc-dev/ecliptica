@@ -22,6 +22,7 @@ export default function Home() {
       />
       <div className="w-full h-screen">
         {/** navigation and 3d model */}
+        <div className="text-accent text-2xl p-4">OnurSevinc</div>
         <Navigation />
         <RenderModel>
           {/* <RobotModel /> */}

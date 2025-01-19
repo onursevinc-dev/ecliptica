@@ -22,22 +22,10 @@ export default function Contact() {
       <article className="relative w-full flex flex-col items-center justify-center py-8 sm:py-0 space-y-8">
         <div className="flex flex-col items-center justify-center space-y-6 w-full sm:*:w-3/4">
           <h1 className="text-accent font-semibold text-center text-4xl capitalize">
-            summon the wizard
+          Contact the developer
           </h1>
           <p className="text-center font-light text-sm xs:text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur
-            architecto, repellat enim assumenda possimus dolorem atque quasi
-            culpa veniam saepe asperiores minus error voluptatem! Dignissimos
-            autem unde facilis architecto possimus vitae in impedit iure,
-            distinctio deleniti illo reiciendis, quo mollitia laboriosam maiores
-            excepturi iste debitis reprehenderit ea ipsam! Accusantium maiores
-            laboriosam dolorem. Pariatur atque eum laborum quas. Voluptatem vero
-            ab nostrum voluptas illum, accusantium quisquam! Velit mollitia
-            eius, reprehenderit cum totam explicabo alias repudiandae suscipit,
-            voluptate eos atque laboriosam tempora possimus praesentium iure.
-            Dolorum aliquid excepturi odio repellendus, labore, assumenda
-            voluptates tempore, quo expedita voluptatum perspiciatis! Nihil vel
-            nesciunt explicabo.
+          Feel free to reach out to me for any project, collaboration or question. You can reach me via the form below.
           </p>
         </div>
         <Form />

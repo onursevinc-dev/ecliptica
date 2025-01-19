@@ -84,7 +84,7 @@ export default function Form() {
         <motion.input
           variants={item}
           type="text"
-          placeholder="name"
+          placeholder="Name"
           {...register("name", {
             required: " Name field is required!",
             minLength: {
